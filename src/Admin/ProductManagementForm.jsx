@@ -53,7 +53,7 @@ const ProductManagementForm = () => {
         setSuccess(null); // Reset success message
 
         // Make the API request to add a new product
-        const response = await axios.post('http://localhost:1112/save', formData, {
+        const response = await axios.post('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/save', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data', // Ensure correct content type
             },

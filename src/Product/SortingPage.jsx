@@ -25,7 +25,7 @@ const SortingPage = () => {
         const productsFromAPI1 = response1.data;
 
         // Fetch products from the second API (your custom API - 'getall')
-        const response2 = await axios.get('http://localhost:1112/getall');
+        const response2 = await axios.get('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/');
         const productsFromAPI2 = response2.data;
 
         // Combine products from both APIs

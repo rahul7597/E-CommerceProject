@@ -70,7 +70,7 @@ const AddressForm = () => {
       console.log('Submitting Addresses:', addresses);
 
       // Using Fetch API to save the addresses (change URL to your actual API endpoint)
-      const response = await fetch('http://localhost:1112/addressreturn', {
+      const response = await fetch('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/addressreturn', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

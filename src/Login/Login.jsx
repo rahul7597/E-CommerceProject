@@ -11,7 +11,7 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:1111/login', {
+    axios.post('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/login', {
       email,
       password
     })

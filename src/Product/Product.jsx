@@ -11,7 +11,7 @@ function Product() {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:1112/getall')
+    fetch('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/getall')
       .then(response => response.json())
       .then(data => {
         setProducts(data);

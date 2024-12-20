@@ -10,7 +10,7 @@ const GopalapiPage = () => {
   // Fetching product data from API
   useEffect(() => {
     axios
-      .get('http://localhost:1112/getall')
+      .get('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/getall')
       .then((response) => {
         setProducts(response.data);  // Update state with product data
         setLoading(false);           // Set loading to false after data is fetched
