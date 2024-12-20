@@ -28,7 +28,7 @@ function RegistrationPage() {
 
     try {
       // Simulate API call (Replace with your actual API endpoint)
-      const response = await fetch('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/register', {
+      const response = await fetch('https://ecommerce-spring-react-app-4e1b67b4ade1.herokuapp.com/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
