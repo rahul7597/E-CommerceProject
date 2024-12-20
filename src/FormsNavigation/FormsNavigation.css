@@ -1,0 +1,126 @@
+.forms-navigation {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hamburger-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon .line {
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+    transition: 0.3s ease;
+  }
+  
+  /* Menu List */
+  .form-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding:0.5%;
+    list-style: none;
+    background-color: #252525;
+  }
+  
+  .form-list ul {
+    display: flex;
+    gap: 15px;
+
+  }
+  
+  .form-list li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .form-list a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+  }
+  
+  .form-list a:hover {
+    color: #007bff;
+  }
+  
+  /* Hamburger Menu Styles for Mobile */
+  @media (max-width: 768px) {
+    .hamburger-icon {
+      display: flex;
+    }
+  
+    .form-list {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  
+    .form-list.show {
+      display: flex;
+    }
+  
+    .form-list ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .form-list li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .form-list a {
+      padding: 10px;
+      display: block;
+      font-size: 18px;
+    }
+  
+    .hamburger-icon.active .line:nth-child(1) {
+      transform: rotate(45deg);
+      position: relative;
+      top: 8px;
+    }
+  
+    .hamburger-icon.active .line:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger-icon.active .line:nth-child(3) {
+      transform: rotate(-45deg);
+      position: relative;
+      top: -8px;
+    }
+  }
+  
+  /* For screens 480px and below */
+  @media (max-width: 480px) {
+    .hamburger-icon .line {
+      width: 25px;
+    }
+  
+    .form-list a {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,131 @@
+/* Login.css */
+.login-page {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .login-content {
+    margin-bottom: 20px;
+  }
+  
+  .login-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-content input[type="email"], .login-content input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .login-content button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-footer p {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Responsive design */
+  
+  @media only screen and (max-width: 480px) {
+    .login-page {
+      margin: 20px auto;
+      padding: 10px;
+    }
+    .login-header {
+      margin-bottom: 10px;
+    }
+    .login-header h1 {
+      font-size: 24px;
+    }
+    .login-header p {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .login-page {
+      margin: 30px auto;
+      padding: 15px;
+    }
+    .login-header {
+      margin-bottom: 15px;
+    }
+    .login-header h1 {
+      font-size: 30px;
+    }
+    .login-header p {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .login-page {
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .login-header {
+      margin-bottom: 20px;
+    }
+    .login-header h1 {
+      font-size: 36px;
+    }
+    .login-header p {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .login-page {
+      margin: 50px auto;
+      padding: 30px;
+    }
+    .login-header {
+      margin-bottom: 30px;
+    }
+    .login-header h1 {
+      font-size: 42px;
+    }
+  }
+  
+  

@@ -1,0 +1,99 @@
+
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+ 
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Services Styles */
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 20px;
+  border: 3px solid red;
+}
+
+.service-card {
+  /* width: calc(25% - 20px); */
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  /* padding:3%; */
+  /* padding-left: 1%;
+  padding-right: 1%; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid red;
+  text-align: center;
+}
+
+.service-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+  .service-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .service-card {
+    width: calc(25% - 20px);
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .service-card {
+    width: calc(20% - 20px);
+  }
+}
+
+
+/* Yeh code aapke services section ko fully responsive bana degi, aur aapke design ko bhi shaandaar bana degi. */

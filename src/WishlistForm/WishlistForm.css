@@ -1,0 +1,128 @@
+
+  .wishlist-form-container {
+    width: 100%;
+    /* max-width: 800px; */
+    padding:1% 10%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .wishlist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .add-to-wishlist-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-wishlist-btn:hover {
+    background-color: #218838;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .wishlist {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .wishlist h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .wishlist ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .wishlist-item {
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wishlist-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .wishlist-form-container {
+      padding: 20px;
+    }
+  
+    .wishlist-form {
+      gap: 12px;
+    }
+  
+    .add-to-wishlist-btn {
+      font-size: 14px;
+      padding: 8px 18px;
+    }
+  
+    .error-message {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wishlist-form-container {
+      padding: 15px;
+    }
+  
+    .wishlist-form {
+      gap: 10px;
+    }
+  
+    .add-to-wishlist-btn {
+      font-size: 12px;
+      padding: 7px 15px;
+    }
+  
+    .error-message {
+      font-size: 12px;
+    }
+  }
+  

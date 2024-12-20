@@ -1,0 +1,114 @@
+
+  .return-refund-form-container {
+    background-color: #fff;
+    padding:2% 10%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* max-width: 800px; */
+    margin: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    margin-top: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  button.submit-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  button.submit-btn:active {
+    background-color: #004085;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .return-refund-form-container {
+      padding: 25px;
+    }
+  
+    button.submit-btn {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .return-refund-form-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    input,
+    select,
+    textarea {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    button.submit-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
